@@ -1,3 +1,0 @@
-[submodule "toolsbuild_tools"]
-	path = toolsbuild_tools
-	url = git@github.com:GirishTabaraddi/build_tools.git
