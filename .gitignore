@@ -1,0 +1,61 @@
+# ── STM32CubeIDE Build Artifacts ─────────────────────────────────────────────
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.d
+*.o
+*.a
+*.su          # Stack usage files
+*.cyclo       # Cyclone complexity files
+
+# ── STM32CubeIDE Project Files (keep .project, .cproject, .ioc) ──────────────
+# Keep: .project, .cproject, *.ioc  (needed to re-import into IDE)
+# Ignore: generated settings that are machine-specific
+.settings/
+.metadata/
+.launches/
+RemoteSystemsTempFiles/
+
+# ── FreeRTOS generated files (we track source, not generated) ────────────────
+# Keep all source — nothing to ignore here
+
+# ── SEGGER SystemView recordings — KEEP these (they're course artifacts) ──────
+# *.SVDat    ← DO NOT ignore — commit your recordings!
+
+# ── OS and Editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/settings.json   # Keep .vscode/extensions.json but not local settings
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# ── CMake ─────────────────────────────────────────────────────────────────────
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+minicom.log
+
+# ── Credentials / secrets ─────────────────────────────────────────────────────
+.env
+secrets.h
+api_keys.h
+

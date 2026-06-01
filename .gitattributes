@@ -1,0 +1,40 @@
+# ── Normalize line endings ────────────────────────────────────────────────────
+* text=auto
+
+# Force LF on Linux for all source files
+*.c     text eol=lf
+*.h     text eol=lf
+*.cpp   text eol=lf
+*.s     text eol=lf
+*.S     text eol=lf
+*.py    text eol=lf
+*.sh    text eol=lf
+*.cmake text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.json  text eol=lf
+
+# Binary files — no diff, no merge
+*.elf   binary
+*.bin   binary
+*.hex   binary
+*.a     binary
+*.o     binary
+*.SVDat binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.gif   binary
+*.ico   binary
+
+# STM32CubeIDE project files — treat as text (XML)
+*.ioc   text eol=lf
+.project text eol=lf
+.cproject text eol=lf
+
+# Windows build_tools binaries — mark as binary
+*.exe   binary
+*.dll   binary
+*.lib   binary
