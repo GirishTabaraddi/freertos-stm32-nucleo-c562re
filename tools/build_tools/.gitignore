@@ -1,0 +1,3 @@
+Python/**/*.pem
+Python/**/*.key
+**/__pycache__/
