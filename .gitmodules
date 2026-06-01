@@ -1,3 +1,6 @@
 [submodule "tools/build_tools"]
 	path = tools/build_tools
 	url = git@github.com:GirishTabaraddi/build_tools.git
+[submodule "sections/03-freertos-integration/exercises/ThirdParty/FreeRTOS"]
+	path = sections/03-freertos-integration/exercises/ThirdParty/FreeRTOS
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
